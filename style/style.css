@@ -3,6 +3,12 @@
   padding: 0;
   box-sizing: border-box;
 }
+body {
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+img {
+  max-width: 100%;
+}
 .container {
   max-width: 1200px;
   margin: 0 auto;
@@ -19,7 +25,6 @@ header {
 }
 .cozy {
   font-size: 32px;
-  font-family: Georgia, "Times New Roman", Times, serif;
   font-weight: 400;
   line-height: 35px;
   letter-spacing: 0.06em;
@@ -49,8 +54,8 @@ header {
   font-family: "Arial";
   line-height: 24px;
 }
-.nav-header li:first-child a:hover{
-  border:none;
+.nav-header li:first-child a:hover {
+  border: none;
 }
 .nav-header li:first-child a {
   border-bottom: #f1cdb3 solid 3px;
@@ -72,7 +77,6 @@ header {
   margin-top: 163px;
 }
 .hero-wrapper__text h1 {
-  font-family: Georgia, "Times New Roman", Times, serif;
   font-size: 44px;
   font-weight: 400;
   line-height: 57px;
@@ -88,7 +92,6 @@ header {
   margin: 42px 0 41px;
 }
 .hero-wrapper__text a {
-  font-family: "Georgia";
   background-color: #f1cdb3;
   text-decoration: none;
   color: #292929;
@@ -97,6 +100,7 @@ header {
   line-height: 21px;
   padding: 15px 45px;
   border-radius: 100px;
+  width: 44%;
 }
 .hero-wrapper__text a:hover {
   background-color: #fddcc4;
@@ -120,7 +124,6 @@ header {
   width: 36%;
 }
 .about-wrapper__text h2 {
-  font-family: Georgia, "Times New Roman", Times, serif;
   font-size: 35px;
   line-height: 46px;
   letter-spacing: 0.06em;
@@ -176,7 +179,7 @@ header {
 .pets-wrapper__cards {
   display: flex;
   justify-content: space-between;
-  width: 83%;
+  width: 80%;
 }
 .pets-wrapper__card {
   background-color: #fafafa;
@@ -200,20 +203,20 @@ header {
   font-size: 17px;
   display: block;
   margin: 0 auto;
-  width: 72%;
+  width: 73%;
   text-decoration: none;
   text-align: center;
-  padding: 13px 45px;
+  padding: 13px 41px;
   border: 2px solid #f1cdb3;
   border-radius: 100px;
-  font-family: "Georgia";
+
   font-weight: 400;
   letter-spacing: 0.06em;
 }
 .pets-wrapper__card a:hover {
   background-color: #fddcc4;
 }
-.pets-wrapper__card:hover{
+.pets-wrapper__card:hover {
   background-color: #fff;
 }
 .katrine {
@@ -239,24 +242,118 @@ header {
   border-radius: 100px;
 }
 .pets-wrapper__right:hover,
-.pets-wrapper__left:hover,.pets-button:hover {
+.pets-wrapper__left:hover,
+.pets-button:hover {
   background-color: #fddcc4;
 }
-.pets-button{
-line-height: 22px;
-font-size: 17px;
-font-family: Georgia, 'Times New Roman', Times, serif;
-letter-spacing: 0.06em;
-color:#292929;
-text-align: center;
-margin: 0 auto;
-background-color:#F1CDB3 ;
-border-radius: 100px;
-border:none;
-display:block;
-padding: 15px 45px;
-
+.pets-button {
+  line-height: 22px;
+  font-size: 17px;
+  letter-spacing: 0.06em;
+  color: #292929;
+  text-align: center;
+  margin: 0 auto;
+  background-color: #f1cdb3;
+  border-radius: 100px;
+  border: none;
+  display: block;
+  padding: 15px 45px;
+}
+.help {
+  background-color: #fff;
+  padding: 80px 0 98px;
+}
+.help__heading {
+  margin: 0 auto;
+  width: 26%;
+  margin-bottom: 5px;
+}
+.help__heading h2 {
+  letter-spacing: 0.06em;
+  color: #545454;
+  font-size: 35px;
+  font-weight: 400;
+  line-height: 46px;
+  text-align: center;
+}
+.help-wrapper {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  text-align: center;
+}
+.help-wrapper__icon {
+  padding-top: 60px;
+  background-repeat: no-repeat;
+  background-position: center top;
+  margin: 55px 60px 0;
+  text-align: center;
 }
 
- 
+.icon1 {
+  background-image: url(../images/icon1.svg);
+}
+.icon2 {
+  background-image: url(../images/icon2.svg);
+}
+.icon3 {
+  background-image: url(../images/icon3.svg);
+  width: 60px;
+  height: 60px;
+}
+.icon4 {
+  background-image: url(../images/icon4.svg);
+}
+.icon5 {
+  background-image: url(../images/icon5.svg);
+}
+.icon6 {
+  background-image: url(../images/icon6.svg);
+}
+.icon7 {
+  background-image: url(../images/icon7.svg);
+}
+.icon8 {
+  background-image: url(../images/icon8.svg);
+}
+.icon9 {
+  background-image: url(../images/icon9.svg);
+}
+.help-wrapper__text {
+  font-weight: 400;
+  line-height: 23px;
+  font-size: 20px;
+  letter-spacing: 0.06em;
+  color: #545454;
+  margin-top: 30px;
+}
+.donate{
+  background-color: #F6F6F6;
+}
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width: 1230px) {
+  .container {
+    max-width: 95%;
+  }
+}
+@media (max-width: 1100px) {
+  max-width: ;
+  display: none;
+}

@@ -53,6 +53,7 @@ header {
   font-size: 15px;
   font-family: "Arial";
   line-height: 24px;
+  font-weight: 400;
 }
 .nav-header li:first-child a:hover {
   border: none;
@@ -97,10 +98,12 @@ header {
   color: #292929;
   display: inline-block;
   font-size: 17px;
-  line-height: 21px;
+  line-height: 22px;
   padding: 15px 45px;
   border-radius: 100px;
   width: 44%;
+  text-align: center;
+  letter-spacing: 0.05em;
 }
 .hero-wrapper__text a:hover {
   background-color: #fddcc4;
@@ -152,18 +155,19 @@ header {
   font-weight: 400;
   font-family: "Georgia";
   font-size: 35px;
-  line-height: 46px;
+  line-height: 45px;
 
   width: 34%;
   margin: 0 auto;
 }
 .pets .string {
   text-align: center;
+  font-family: Georgia, "Times New Roman", Times, serif;
 }
 .pets-wrapper {
   display: flex;
   justify-content: space-between;
-  margin: 60px 0 60px;
+  margin: 60px 0 ;
   align-items: center;
 }
 .pets-wrapper__left {
@@ -173,22 +177,24 @@ header {
   width: 52px;
   height: 52px;
   border: 2px solid #f1cdb3;
-
+  cursor: pointer;
   border-radius: 100px;
+  background: transparent;
+  background-image: url(../images/left.svg);
+  background-position: center;
+  background-repeat: no-repeat;
 }
 .pets-wrapper__cards {
   display: flex;
   justify-content: space-between;
-  width: 80%;
+  width: 83%;
 }
 .pets-wrapper__card {
   background-color: #fafafa;
-  width: 27%;
+  width: 28%;
   padding: 300px 0 30px;
 }
 
-.pets-wrapper__cards .pets-name {
-}
 .pets-wrapper__cards .pets-name {
   color: #545454;
   font-size: 20px;
@@ -203,7 +209,7 @@ header {
   font-size: 17px;
   display: block;
   margin: 0 auto;
-  width: 73%;
+  width: 70%;
   text-decoration: none;
   text-align: center;
   padding: 13px 41px;
@@ -232,32 +238,38 @@ header {
   background-repeat: no-repeat;
 }
 .pets-wrapper__right {
-  background-image: url(../images/right.svg);
   background-position: center;
-  background-repeat: no-repeat;
+
   width: 52px;
   height: 52px;
   border: 2px solid #f1cdb3;
-
+  cursor: pointer;
   border-radius: 100px;
+  background: transparent;
+  background-image: url(../images/right.svg);
+  background-repeat: no-repeat;
+  background-position: center;
 }
 .pets-wrapper__right:hover,
 .pets-wrapper__left:hover,
 .pets-button:hover {
   background-color: #fddcc4;
 }
+
 .pets-button {
   line-height: 22px;
   font-size: 17px;
   letter-spacing: 0.06em;
   color: #292929;
-  text-align: center;
-  margin: 0 auto;
+  width: 22%;
+
   background-color: #f1cdb3;
   border-radius: 100px;
   border: none;
   display: block;
   padding: 15px 45px;
+  text-decoration: none;
+  margin: 0 auto;
 }
 .help {
   background-color: #fff;
@@ -396,6 +408,7 @@ footer {
 }
 .footer-wrapper__contacts {
   width: 24%;
+  padding-top: 14px;
 }
 .footer-wrapper__contacts h2 {
   margin-bottom: 40px;
@@ -413,6 +426,7 @@ footer {
 }
 .footer-wrapper__navigation {
   width: 26%;
+  padding-top: 14px;
 }
 
 .footer-wrapper__contacts .tel {
@@ -479,7 +493,7 @@ footer {
 .adress1::before {
   top: 7px;
 }
-@media (max-width: 1230px) {
+/* @media (max-width: 1230px) {
   .container {
     max-width: 95%;
   }
@@ -487,4 +501,4 @@ footer {
 @media (max-width: 1100px) {
   max-width: ;
   display: none;
-}
+} */

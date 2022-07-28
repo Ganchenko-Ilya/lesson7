@@ -49,8 +49,12 @@ body {
   line-height: 24px;
   font-weight: 400;
 }
+.nav-header a:hover{
+  color:#292929;
+}
 .nav-header li:nth-child(2) a:hover {
   border: none;
+  
 }
 .nav-header li:nth-child(2) a {
   border-bottom: #f1cdb3 solid 3px;

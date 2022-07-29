@@ -61,6 +61,9 @@ header {
 nav .burger {
   display: none;
 }
+nav .burger{
+  display:none;
+}
 .nav-header li:first-child a:hover {
   border: none;
 }
@@ -508,10 +511,14 @@ footer {
 
 
 
+
+
+
 @media (max-width: 1230px) {
   .container {
     max-width: 95%;
   }
+
 }
 @media (max-width: 1230px) {
   .container {
@@ -691,3 +698,7 @@ footer {
   }
   
 }
+
+  
+  
+

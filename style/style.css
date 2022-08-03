@@ -549,6 +549,9 @@ footer {
   .hero-wrapper__text a {
     width: 61%;
   }
+  .help__heading {
+    width: 40%;
+  }
 }
 @media (max-width: 1028px){
    .woody{
@@ -596,6 +599,9 @@ footer {
   .katrine{
     margin-right:10px;
   }
+  .help__heading {
+    width: 50%;
+  }
 }
 @media (max-width: 717px) {
   .hero-wrapper__image {
@@ -636,6 +642,9 @@ footer {
   .jennifer{
     display: none;
   }
+  .help{
+    padding: 20px 0;
+  }
 }
 
 @media (max-width: 644px) {
@@ -669,6 +678,9 @@ footer {
 .pets-button{
   width:200px;
   text-align: center;
+}
+.help__heading {
+  width: 60%;
 }}
 
 
@@ -711,6 +723,9 @@ footer {
   }
   .about-wrapper{
     padding-bottom:20px ;
+  }
+  .help__heading {
+    width: 70%;
   }
 }
 @media (max-width: 449px) {

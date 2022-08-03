@@ -520,7 +520,7 @@ footer {
 
 @media (max-width: 1230px) {
   .container {
-    max-width: 95%;
+    max-width: 97%;
   }
   .pets h2 p{
     text-align: center;}
@@ -536,6 +536,12 @@ footer {
   }
   .pets-button{
     width:264px ;
+  }
+  .footer-wrapper__contacts{
+    width:30%;
+  }
+  .footer-wrapper__navigation{
+    width:30%;
   }
 }
 @media (max-width: 1165px) {
@@ -579,6 +585,20 @@ footer {
   .hero-wrapper__text a {
     width: 60%;
     padding: 15px 25px;
+  }
+  .footer-wrapper{
+  justify-content: center;
+  flex-wrap: wrap;
+  }
+  .footer-wrapper__image{
+    margin-top:60px;
+  }
+  .footer-wrapper__contacts{
+    
+    width: 50%;
+  }
+  .footer-wrapper__navigation{
+    width: 50%;
   }
 }
 @media (max-width:866px){
@@ -631,6 +651,9 @@ footer {
   }
 }
 @media (max-width: 717px) {
+  .header-wrapper{
+    padding: 30px 0;
+  }
   .hero-wrapper__image {
     display: none;
   
@@ -639,6 +662,8 @@ footer {
     padding: 15px 5px;
     width:50%;
   }
+  
+  
   .about {
     position: relative;
   }
@@ -664,7 +689,7 @@ footer {
     margin-right: 20px;
   }
   .hero {
-    padding: 150px 0 20px;
+    padding: 120px 0 20px;
   }
   .jennifer{
     display: none;
@@ -672,7 +697,11 @@ footer {
   .help{
     padding: 20px 0;
   }
-}
+  .footer-wrapper{
+    flex-wrap: wrap;
+   
+  }}
+
 
 @media (max-width: 644px) {
   nav .burger {
@@ -709,7 +738,46 @@ footer {
 .help__heading {
   width: 60%;
 }}
+@media (max-width:620px){
+  .footer-wrapper__contacts, .footer-wrapper__navigation{
+    width:93%;
+    
 
+  }
+  .contacts, .navigation{
+    display: block;
+   max-width: 250px;
+   margin: 0 auto;
+  
+   
+    
+
+  }
+  .footer-wrapper__contacts h2,.footer-wrapper__navigation h2{
+    text-align: center;
+    
+   
+
+  }
+  .footer-wrapper__contacts a{
+    display: block;
+
+    
+  }
+  .footer-wrapper__navigation{
+    justify-content:flex-start;
+    width: 100%;
+  }
+  
+   .navigation, .contacts{
+   max-width:320px;
+
+  
+  }
+ 
+  
+
+}
 
 @media (max-width: 513px) {
   .hero-wrapper {
@@ -757,12 +825,22 @@ footer {
   .donate-wrapper__text h2{
     font-size: 30px;
   }
+  .pets h2{
+width:80%;
+line-height: 40px;
+  }
 }
 @media (max-width: 449px) {
   .hero-wrapper__text a {
     width: 70%;
     padding: 15px 15px;
   }
+   .hero-wrapper .hero-wrapper__text{
+    width:80%;
+  }
+   .hero-wrapper__text p{
+    max-width: 400px;
+   }
   .about-wrapper__image {
     margin-top: 400px ;
 
@@ -772,6 +850,7 @@ footer {
   font-size: 25px;
   width: 100%;
 }
+
 }
 @media (max-width: 409px) {
   .hero-wrapper__text h1 {

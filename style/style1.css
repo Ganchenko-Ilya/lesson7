@@ -33,7 +33,9 @@ body {
   font-family: "Arial";
   color: #292929;
 }
-
+.burger {
+  display: none;
+}
 .nav-header {
   display: flex;
 }
@@ -73,7 +75,7 @@ body {
 
   width: 34%;
   margin: 0 auto;
-  margin-bottom: 30px;
+  margin-bottom: 40px;
 }
 .pets .string {
   text-align: center;
@@ -159,12 +161,10 @@ body {
   justify-content: space-between;
   margin: 0 auto;
   width: 28%;
-  outline-color: #F6F6F6;
+  outline-color: #f6f6f6;
   border-style: none;
   background: transparent;
   margin-top: 60px;
-  
-  
 }
 .pets-slider {
   width: 52px;
@@ -174,11 +174,6 @@ body {
   border-radius: 100px;
   vertical-align: baseline;
   position: relative;
-  
-  
-  
-  
-  
 }
 .left,
 .leftx {
@@ -201,8 +196,8 @@ body {
 .rightx:hover {
   background-color: #fddcc4;
 }
-.middle{
-    background-color:#F1CDB3 ;
+.middle {
+  background-color: #f1cdb3;
 }
 
 footer {
@@ -300,4 +295,116 @@ footer {
 
 .adress1::before {
   top: 7px;
+}
+
+@media (max-width: 1230px) {
+  .container {
+    max-width: 97%;
+  }
+  .pets-wrapper__card {
+    width: 270px;
+  }
+  .footer-wrapper__contacts {
+    width: 30%;
+  }
+  .footer-wrapper__navigation {
+    width: 30%;
+  }
+}
+@media (max-width: 1213px) {
+  .pets h2 {
+    width: 400px;
+  }
+}
+@media (max-width: 1002px) {
+  .footer-wrapper {
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+  .footer-wrapper__image {
+    margin-top: 60px;
+  }
+  .footer-wrapper__contacts,
+  .footer-wrapper__navigation {
+    width: 50%;
+  }
+}
+@media (max-width: 959px) {
+  .pets-wrapper__cards {
+    justify-content: center;
+  }
+  .pets-wrapper__card {
+    width: 270px;
+    margin-right: 40px;
+  }
+  .slider-wrapper {
+    width: 340px;
+  }
+}
+
+@media (max-width: 656px) {
+  .header-wrapper ul {
+    display: none;
+  }
+  .burger {
+    display: block;
+    margin-right: 40px;
+  }
+  .burger-menu {
+    background: transparent;
+    border-style: none;
+  }
+}
+@media (max-width: 640px) {
+  .pets {
+    padding: 40px 0 30px;
+  }
+  .pets h2 {
+    width: 300px;
+    font-size: 25px;
+    line-height: 33px;
+    margin-bottom: 49px;
+  }
+  .pets-wrapper__card {
+    margin-right: 0;
+  }
+  .slider-wrapper {
+    margin-top: 30px;
+    width: 300px;
+  }
+  .footer-wrapper__contacts, .footer-wrapper__navigation{
+    width:93%;
+    
+
+  }
+  .contacts, .navigation{
+    display: block;
+   max-width: 250px;
+   margin: 0 auto;
+  
+   
+    
+
+  }
+  .footer-wrapper__contacts h2,.footer-wrapper__navigation h2{
+    text-align: center;
+    
+   
+
+  }
+  .footer-wrapper__contacts a{
+    display: block;
+
+    
+  }
+  .footer-wrapper__navigation{
+    justify-content:flex-start;
+    width: 100%;
+  }
+  
+   .navigation, .contacts{
+   max-width:320px;
+
+  
+  }
 }
